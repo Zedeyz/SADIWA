@@ -391,4 +391,4 @@ This project is created for educational purposes. Free to use and modify for aca
 
 **SADIWA** - Preserving Bohol's cultural heritage through community participation and technology.
 
-*Developed with attention to simplicity, security, and functionality.*
+*Developed with attention to simplicity, security, and functionality.* -Jedrick
