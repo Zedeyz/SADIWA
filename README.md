@@ -1,4 +1,4 @@
-# SADIWA: Community-Based Cultural Heritage Information System
+# SADIWA: Community-Based Cultural Heritage Information Systemss
 
 A comprehensive web-based system for documenting, monitoring, and visualizing earthquake-affected heritage churches in Bohol, Philippines.
 
