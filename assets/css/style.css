@@ -1,0 +1,107 @@
+/* SADIWA Custom Styles */
+
+/* Hide any external badges or watermarks */
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 2px solid #e9ecef;
+    font-weight: 600;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.btn {
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.badge {
+    padding: 6px 12px;
+    font-weight: 500;
+}
+
+/* Login page styles */
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+/* Map marker styles */
+.custom-marker {
+    background: none;
+    border: none;
+}
+
+/* DataTables custom styling */
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+/* DataTables custom styling */
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+/* FIXED: Show entries dropdown - prevent arrow from overlapping the number */
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 6px 12px 6px 12px;     /* top, right, bottom, left */
+    padding-right: 25px !important;  /* ← This is the main fix */
+    
+    /* Custom arrow to replace the default one */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23333' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+    
+    /* Remove default browser arrow */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    
+    #map {
+        height: 400px;
+    }
+}

@@ -1,0 +1,10 @@
+# Prevent any external badge injection
+Header set X-Frame-Options "SAMEORIGIN"
+Header set X-Content-Type-Options "nosniff"
+Header set X-XSS-Protection "1; mode=block"
+
+# Disable server signatures
+ServerSignature Off
+
+# Prevent iframe embedding
+Header always append X-Frame-Options SAMEORIGIN
